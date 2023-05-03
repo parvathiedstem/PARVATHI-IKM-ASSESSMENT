@@ -1,6 +1,6 @@
-# PARVATHI-IKM-ASSESSMENT
+## PARVATHI-IKM-ASSESSMENT
 
-Run the following script in MSSQL Mnagement Server
+# Run the following script in MSSQL Mnagement Server
 
 CREATE TABLE customers (
   id INT NOT NULL PRIMARY KEY,
@@ -73,7 +73,7 @@ CREATE TABLE products (
   price NUMERIC(10, 2) NOT NULL
 );
 
-#Clone the Repository
+# Clone the Repository
 
 Run The following command in cmd to install dependencies
 
