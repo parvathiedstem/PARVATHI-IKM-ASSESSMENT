@@ -1,7 +1,7 @@
 ## PARVATHI-IKM-ASSESSMENT
 
 # Run the following script in MSSQL Mnagement Server
-
+create table
 ```
 CREATE TABLE customers (
   id INT NOT NULL PRIMARY KEY,
@@ -28,6 +28,8 @@ CREATE TABLE products (
   price DECIMAL(10, 2) NOT NULL
 );
 
+```
+insert table
 ```
 INSERT INTO customers (id, name, email, phone)
 VALUES (1, 'John Doe', 'john.doe@example.com', NULL),
