@@ -1,6 +1,9 @@
 ## PARVATHI-IKM-ASSESSMENT
 
-# Run the following script in MSSQL Mnagement Server
+
+Run the following script in MSSQL Mnagement Server
+
+
 create table
 ```
 CREATE TABLE customers (
@@ -10,7 +13,6 @@ CREATE TABLE customers (
   phone VARCHAR(20) NULL
 );
 
- 
 
 CREATE TABLE orders (
   id INT NOT NULL PRIMARY KEY,
@@ -19,7 +21,6 @@ CREATE TABLE orders (
   created_at DATETIME NOT NULL,
   CONSTRAINT fk_orders_customers FOREIGN KEY (customer_id) REFERENCES customers(id)
 );
-
  
 
 CREATE TABLE products (
@@ -50,7 +51,7 @@ VALUES (1, 'Product A', 10.00),
        (3, 'Product C', 30.00);
 ```
 
-# Run the following script in postgres 
+Run the following script in postgres 
 
 ```
 CREATE TABLE customers (
